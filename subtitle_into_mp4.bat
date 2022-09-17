@@ -1,1 +1,1 @@
-ffmpeg -i .mp4 -vf "ass=.ass" .mp4
+ffmpeg -i %~n1.mp4 -vf "ass=%~n1.ass" %~n1.mp4
